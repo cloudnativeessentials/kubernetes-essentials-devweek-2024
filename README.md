@@ -4,16 +4,16 @@
 
 ##  Tutorial
 
-- [Prerequisites](#1.-prerequisites)
-- [minikube Prerequisites](#2.-minikube-prerequisites)
-- [Docker Install](#3.-docker-install)
-- [minikube Install](#4.-minikube-install)
-- [Create a minikube Cluster](#5.-create-a-minikube-cluster)
-- [Explore the Cluster](#6.-explore-the-cluster)
-- [Deploy a Containerized Application in a Pod](#7.-deploy-a-containerized-application-in-a-pod)
-- [Deploy the Containerized Application in a Deployment](#8.-deploy-the-containerized-application-in-a-Deployment)
-- [Use a Service to Expose the Application](#9.-use-a-service-to-expose-the-application)
-- [Cleanup](#10.-cleanup)
+- [Prerequisites](#1-prerequisites)
+- [minikube Prerequisites](#2-minikube-prerequisites)
+- [Docker Install](#3-docker-install)
+- [minikube Install](#4-minikube-install)
+- [Create a minikube Cluster](#5-create-a-minikube-cluster)
+- [Explore the Cluster](#6-explore-the-cluster)
+- [Deploy a Containerized Application in a Pod](#7-deploy-a-containerized-application-in-a-pod)
+- [Deploy the Containerized Application in a Deployment](#8-deploy-the-containerized-application-in-a-Deployment)
+- [Use a Service to Expose the Application](#9-use-a-service-to-expose-the-application)
+- [Cleanup](#10-cleanup)
 
 ### 1. Prerequisites
 
@@ -766,7 +766,7 @@ minikube delete --all
 Expected output:
 ```shell
 🔥  Deleting "minikube" in docker ...
-🔥  Removing /Users/reylejano/.minikube/machines/minikube ...
+🔥  Removing /Users/<user>/.minikube/machines/minikube ...
 💀  Removed all traces of the "minikube" cluster.
 🔥  Successfully deleted all profiles
 ```
