@@ -25,7 +25,7 @@ Connection to <ip> closed.
 ```
 
 ---
-<instance id>       <ip>   <br/>
+`<instance id>`       `<ip>`   <br/>
 i-0878424ea80ab0b07	35.87.166.88	<br/>
 i-0991971bc5c088c52	35.88.35.159 <br/>	
 i-067ec183337deee8c	44.234.88.119	<br/>
