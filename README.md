@@ -4,24 +4,24 @@
 
 ##  Tutorial
 
-- [Prerequisites](#prerequisites)
-- [minikube Prerequisites](#minikube-prerequisites)
-- [Docker Install](#docker-install)
-- [minikube Install](#minikube-install)
-- [Create a minikube Cluster](#create-a-minikube-cluster)
-- [Explore the Cluster](#explore-the-cluster)
-- [Deploy a Containerized Application in a Pod](#deploy-a-containerized-application-in-a-pod)
-- [Deploy the Containerized Application in a Deployment](#deploy-the-containerized-application-in-a-Deployment)
-- [Use a Service to Expose the Application](#use-a-service-to-expose-the-application)
-- [Cleanup](#cleanup)
+- [Prerequisites](#1.-prerequisites)
+- [minikube Prerequisites](#2.-minikube-prerequisites)
+- [Docker Install](#3.-docker-install)
+- [minikube Install](#4.-minikube-install)
+- [Create a minikube Cluster](#5.-create-a-minikube-cluster)
+- [Explore the Cluster](#6.-explore-the-cluster)
+- [Deploy a Containerized Application in a Pod](#7.-deploy-a-containerized-application-in-a-pod)
+- [Deploy the Containerized Application in a Deployment](#8.-deploy-the-containerized-application-in-a-Deployment)
+- [Use a Service to Expose the Application](#9.-use-a-service-to-expose-the-application)
+- [Cleanup](#10.-cleanup)
 
 ### 1. Prerequisites
 
-Local Kubernetes cluster
-[minikube](https://minikube.sigs.k8s.io/docs/)
-[kind](https://kind.sigs.k8s.io/)
-[k3s](https://k3s.io/)
-[k3d](https://k3d.io)
+Local Kubernetes cluster:
+- [minikube](https://minikube.sigs.k8s.io/docs/)
+- [kind](https://kind.sigs.k8s.io/)
+- [k3s](https://k3s.io/)
+- [k3d](https://k3d.io)
 
 ### 2. minikube Prerequisites
 
@@ -771,4 +771,4 @@ Expected output:
 🔥  Successfully deleted all profiles
 ```
 
-Thank you for completing this workshop. You have successfully deployed a containerized app in a Pod, then in Deployment, updated the app, scaled the app up and down, exposed the app to outside the cluster.
+🎉 Thank you for completing this workshop. You have successfully deployed a containerized app in a Pod, then in Deployment, updated the app, scaled the app up and down, exposed the app to outside the cluster.
