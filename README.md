@@ -112,12 +112,12 @@ via PowerShell (as Administrator):
 
 For AMD64/x86:
 1. `curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64`
-`sudo install minikube-linux-amd64 /usr/local/bin/minikube`
+2. `sudo install minikube-linux-amd64 /usr/local/bin/minikube`
 
 
 For ARM64:
 1. `curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-arm64`
-`sudo install minikube-linux-arm64 /usr/local/bin/minikube`
+2. `sudo install minikube-linux-arm64 /usr/local/bin/minikube`
 
 
 ### 5. Create a minikube Cluster
