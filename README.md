@@ -771,4 +771,4 @@ Expected output:
 🔥  Successfully deleted all profiles
 ```
 
-🎉 Thank you for completing this workshop. You have successfully deployed a containerized app in a Pod, then in Deployment, updated the app, scaled the app up and down, exposed the app to outside the cluster.
+🎉 Thank you for completing this workshop. You have successfully deployed a containerized app in Kubernetes in multiple ways, updated the app, scaled the app up and down, exposed the app to outside the cluster.
