@@ -59,10 +59,10 @@ via Chocolately
 via binary
 1. [https://docs.docker.com/desktop/install/windows-install/](https://docs.docker.com/desktop/install/windows-install/)
 
-#### 3c. Docker Install on Linux
+#### 3c. Docker Install on Linux Option 1
 
 1. Run the Docker installer
-`curl -LO https://get.docker.com/ | sh`
+`wget -qO- https://get.docker.com/ | sh`
 
 2. Add user to the docker group
 `sudo usermod -aG docker $USER`
@@ -71,6 +71,29 @@ via binary
 `newgrp docker`
 
 4. Verify Docker is running
+`docker version`
+
+#### 3d. Docker Install on Linux Option 2
+
+1. Download the Docker binary
+`curl https://download.docker.com/linux/static/stable/x86_64/docker-25.0.3.tgz --output docker.tgz`
+
+2. Extract the archive
+`tar xzvf docker.tgz`
+
+3. Move the binaries
+`sudo cp docker/* /usr/bin/`
+
+4. Start the Docker daemon
+`sudo dockerd &`
+
+4. Add user to the docker group
+`sudo usermod -aG docker $USER`
+
+5. Activate changes to the docker group
+`newgrp docker`
+
+6. Verify Docker is running
 `docker version`
 
 
