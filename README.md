@@ -1,7 +1,7 @@
 # Kubernetes Essentials
 ### Presented at DevWeek 2024
 
-
+[YouTube Video of Tutorial Walkthrough (macOS)](https://youtu.be/ertKR2nsSXA)
 ##  Tutorial
 
 - [Prerequisites](#1-prerequisites)
