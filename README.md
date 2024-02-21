@@ -59,7 +59,7 @@ via Chocolately
 via binary
 1. [https://docs.docker.com/desktop/install/windows-install/](https://docs.docker.com/desktop/install/windows-install/)
 
-#### 3c. Docker Install on Linux Option 1
+#### 3c. Docker Install on Linux Option 1 - via Install Script
 
 1. Run the Docker installer
 `wget -qO- https://get.docker.com/ | sh`
@@ -73,29 +73,31 @@ via binary
 4. Verify Docker is running
 `docker version`
 
-#### 3d. Docker Install on Linux Option 2
+#### 3d. Docker Install on Linux Option 2 - via Package Manager
 
-1. Download the Docker binary
-`curl https://download.docker.com/linux/static/stable/x86_64/docker-25.0.3.tgz --output docker.tgz`
+1. Add dependencies
+`sudo yum install -y yum-utils device-mapper-persistent-data lvm2`
 
-2. Extract the archive
-`tar xzvf docker.tgz`
+2. Add the Docker repository
+`sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo`
 
-3. Move the binaries
-`sudo cp docker/* /usr/bin/`
+3. Update your system
+`sudo yum update -y`
 
-4. Start the Docker daemon
-`sudo dockerd &`
+4. Use a package manager to install Docker
+`sudo yum install docker-ce -y`
 
-4. Add user to the docker group
+5. Start the Docker service and enable it to start on boot
+`sudo systemctl start docker && sudo systemctl enable docker`
+
+6. Add user to the docker group
 `sudo usermod -aG docker $USER`
 
-5. Activate changes to the docker group
+7. Activate changes to the docker group
 `newgrp docker`
 
-6. Verify Docker is running
+8. Verify Docker is running
 `docker version`
-
 
 ### 4. minikube Install 
 Go to the minikube installation page to determine the installation route for your environment:
