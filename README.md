@@ -62,7 +62,7 @@ via binary
 #### 3c. Docker Install on Linux
 
 1. Run the Docker installer
-`wget -qO- https://get.docker.com/ | sh`
+`curl -LO https://get.docker.com/ | sh`
 
 2. Add user to the docker group
 `sudo usermod -aG docker $USER`
