@@ -91,7 +91,7 @@ via Release Binaries for Apple Silicon Macs:
 1. `curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-arm64`
 2. `sudo install minikube-darwin-arm64 /usr/local/bin/minikube`
 
-#### 4b. kind Install on Windows
+#### 4b. minikube Install on Windows
 
 via Chocolately:
 1. `choco install minikube`
@@ -108,7 +108,7 @@ via PowerShell (as Administrator):
 6. `}`
 7. Reopen the terminal
 
-#### 4c. kind Install on Linux via Release Binaries
+#### 4c. minikube Install on Linux via Release Binaries
 
 For AMD64/x86:
 1. `curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64`
